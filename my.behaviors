@@ -1,0 +1,11 @@
+{:+ {:app [(:lt.objs.plugins/load-keymap "my.keymap")
+           (:lt.objs.style/set-skin "dark")]
+
+     :editor [:lt.objs.editor/no-wrap
+              :lt.objs.editor/line-numbers
+              (:lt.objs.style/set-theme "ibdknox")]
+
+     :editor.clojure [(:lt.objs.langs.clj/print-length 1000)]}
+
+ :- {:app [:lt.objs.intro/show-intro]
+     :editor.transient [:lt.objs.editor.file/dirty-on-change]}}

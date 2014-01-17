@@ -1,0 +1,9 @@
+{:+ {:app {"pmeta-t" [:workspace.show]
+           "pmeta-shift-c" [:show-connect]
+           "pmeta-alt-i" [:dev-inspector]}
+
+     :tabs {"pmeta-w" [:alt-tab/close-current-tab-and-go-to-previously-used]}
+
+     :editor {"pmeta-/" [:toggle-comment-selection]
+              "pmeta-p" [:smart-indent-selection]
+              "esc" [:find.hide]}}}
