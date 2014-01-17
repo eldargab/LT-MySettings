@@ -1,9 +1,10 @@
 {:+ {:app [(:lt.objs.plugins/load-keymap "my.keymap")
+           (:lt.objs.style/provide-theme "eldar" "file:///Users/eldar/Library/Application Support/LightTable/plugins/MySettings/themes/eldar.css")
            (:lt.objs.style/set-skin "dark")]
 
      :editor [:lt.objs.editor/no-wrap
               :lt.objs.editor/line-numbers
-              (:lt.objs.style/set-theme "ibdknox")]
+              (:lt.objs.style/font-settings "Consolas" 11 1.4)]
 
      :editor.clojure [(:lt.objs.langs.clj/print-length 1000)]}
 

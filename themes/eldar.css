@@ -1,0 +1,67 @@
+.cm-s-eldar.CodeMirror {
+  background: white;
+  color: #333;
+}
+
+.cm-s-eldar .CodeMirror-gutters,
+#multi.theme-eldar .content {
+  background: white;
+}
+
+#multi.theme-eldar .list .active,
+#multi.theme-eldar .list li:hover {
+  background: white;
+  color: #333;
+}
+
+.cm-s-eldar span.cm-keyword {color: #333; font-weight: bold;}
+.cm-s-eldar span.cm-comment {color:#888; font-style: italic;}
+.cm-s-eldar span.cm-string {color: #D14;}
+.cm-s-eldar span.cm-regexp {color: #009926;}
+
+.cm-s-eldar span.cm-tag {color: #000080;}
+.cm-s-eldar span.cm-attribute {color: #008080;}
+.cm-s-eldar span.cm-number {color: #009999;}
+
+
+/* .cm-s-eldar span.cm-bracket {color: #777;} */
+
+.cm-s-eldar span.CodeMirror-matchingbracket { background: #ccc; }
+
+.cm-s-eldar div.CodeMirror-cursor { border-left: 1px solid #333; }
+
+.cm-s-eldar.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor { width: auto; border: none !important; background: rgba(50, 50, 50, .4);}
+
+.cm-s-eldar .CodeMirror-selected {background: rgba(77, 151, 255, 0.5)}
+
+.cm-s-eldar .searching-current { background:var(accent-background); color:var(accent-foreground) !important; }
+
+.cm-s-eldar span.CodeMirror-searching-active { font-weight: bold; color: #333}
+
+.cm-s-eldar {
+  var-error-bg: #fFd2d9;
+  var-error-fg: #d0316D;
+  var-error-highlight-fg: #633;
+  var-error-border: #E0919D;
+
+  var-usage-bg: rgb(255, 255, 204);
+  var-usage-fg: #666;
+/*
+  var-usage-bg: #d0b2f9;
+  var-usage-fg: #8021ff; */
+
+  var-result-bg: #BFD4FF;
+  var-result-fg: #216BFF;
+
+  var-accent-foreground: #213BfF;
+  var-accent-background: #BFD4FF;
+  var-light-accent-background: #75A3FF;
+  var-light-accent-foreground: #216BFF;
+  var-dark-accent-background: #BFD4FF;
+
+  var-secondary-accent-fg: #098;
+  var-secondary-accent-dim-fg: #6a9;
+  var-secondary-accent-desat-fg: #5a9;
+}
+
+/* #instarepl .cm-s-eldar .use-result { border: 1px solid #ccc;} */
