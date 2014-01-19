@@ -1,7 +1,10 @@
 {:+ {:app {"pmeta-t" [:workspace.show]
            "pmeta-shift-c" [:show-connect]
            "pmeta-alt-i" [:dev-inspector]
-           "pmeta-shift-o" [:workspace.show-recents]}
+           "pmeta-shift-o" [:workspace.show-recents]
+           "f4" [:lt.plugins.opener/open-active-workspace]
+           "pmeta-f4" [:lt.plugins.opener/reveal-active-item]
+           "f5" [:lt.plugins.opener/open-terminal-in-active-workspace]}
 
      :tabs {"pmeta-w" [:lt.plugins.alt-tab/close-current-tab-and-go-to-previously-used]}
 

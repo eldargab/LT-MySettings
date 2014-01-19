@@ -3,5 +3,8 @@
   "version": "0.0.1",
   "author": "Eldar Gabdullin",
   "desc": "My private settings",
-  "behaviors": "my.behaviors"
+  "behaviors": "my.behaviors",
+  "dependencies": {
+    "Clojure": "*"
+  }
 }

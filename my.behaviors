@@ -1,4 +1,5 @@
 {:+ {:app [(:lt.objs.plugins/load-keymap "my.keymap")
+           (:lt.objs.plugins/load-js "codemirror/clojure-mode.js" true)
            (:lt.objs.style/provide-theme "eldar" "file:///Users/eldar/Library/Application Support/LightTable/plugins/MySettings/themes/eldar.css")
            (:lt.objs.style/set-skin "dark")]
 
