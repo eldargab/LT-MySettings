@@ -30,6 +30,9 @@ CodeMirror.defineMode("clojure", function () {
     // clojure.test
     "testing deftest " +
 
+    // core.logic
+    "run* conde fresh" +
+
     // contrib
     "handler-case handle dotrace deftrace");
 
@@ -45,7 +48,7 @@ CodeMirror.defineMode("clojure", function () {
     exponent: /e/i,
     char: /[^\s\(\[\{\}\]\)]/,
     keyword_char: /[^\s\(\[\;\)\]]/,
-    basic: /[\w\$_\-\.\*\+\/\?\><!]/,
+    basic: /[\w\$_\-\.\*\+\/\?\><!=]/,
     lang_keyword: /[\w\*\+!\-_?:\/\.#=]/,
   };
 
