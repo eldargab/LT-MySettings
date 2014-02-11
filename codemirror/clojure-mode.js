@@ -21,6 +21,9 @@ CodeMirror.defineMode("clojure", function () {
     // Built-ins
     "ns fn def defn defmethod bound-fn if if-not case condp when while when-not when-first do future comment doto locking proxy with-open with-precision reify deftype defrecord defprotocol extend extend-protocol extend-type try catch " +
 
+    // ClojureScript
+    "this-as" +
+
     // Binding forms
     "let letfn binding loop for doseq dotimes when-let if-let " +
 
