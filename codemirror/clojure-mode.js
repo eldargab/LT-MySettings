@@ -248,7 +248,7 @@ CodeMirror.defineMode("clojure", function () {
           }
             }
 
-          if (bracketSeen && returnType != COMMENT) {
+          if (bracketSeen && returnType != COMMENT && returnType != BRACKET) {
             returnType = returnType
               ? returnType + ' lispfunction'
               : 'lispfunction'

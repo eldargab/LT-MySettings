@@ -8,13 +8,18 @@
   background: white;
 }
 
-#multi.theme-eldar .list .active,
+#multi.theme-eldar .list li {
+  display: none;
+}
+
+#multi.theme-eldar .list li.active,
 #multi.theme-eldar .list li:hover {
+  display: inline-block;
   background: white;
   color: #333;
 }
 
-.cm-s-eldar span.cm-lispfunction {color: #445588; font-weight: bold;}
+.cm-s-eldar span.cm-lispfunction {color: #445588; font-weight: bolder;}
 .cm-s-eldar span.cm-keyword {color: #333; font-weight: bold;}
 .cm-s-eldar span.cm-comment {color:#888; font-style: italic;}
 .cm-s-eldar span.cm-string {color: #D14;}

@@ -1,7 +1,7 @@
 {:+ {:app [(:lt.objs.plugins/load-js "mysettings_compiled.js")
            (:lt.objs.plugins/load-keymap "my.keymap")
            (:lt.objs.plugins/load-js "codemirror/clojure-mode.js" true)
-           (:lt.objs.style/provide-theme "eldar" "file:///Users/eldar/Library/Application Support/LightTable/plugins/MySettings/themes/eldar.css")
+           (:lt.objs.style/provide-theme "eldar" "themes/eldar.css")
            (:lt.objs.style/set-skin "dark")
            :my/focus-on-init]
 
@@ -12,4 +12,5 @@
      :editor.clojure [(:lt.objs.langs.clj/print-length 1000)]}
 
  :- {:app [:lt.objs.intro/show-intro]
-     :editor.transient [:lt.objs.editor.file/dirty-on-change]}}
+     :editor.transient [:lt.objs.editor.file/dirty-on-change]
+     :editor [:lt.plugins.auto-complete/auto-show-on-input]}}
