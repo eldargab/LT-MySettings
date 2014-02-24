@@ -4,7 +4,7 @@ CodeMirror.defineMode("clojure", function () {
   var INDENT_WORD_SKIP = 2;
 
   function makeKeywords(str) {
-    var obj = {}, words = str.split(" ");
+    var obj = {}, words = str.trim().split(" ");
     for (var i = 0; i < words.length; ++i) obj[words[i]] = true;
     return obj;
   }
@@ -34,10 +34,13 @@ CodeMirror.defineMode("clojure", function () {
     "testing deftest " +
 
     // core.logic
-    "run* conde fresh" +
+    "run* conde fresh " +
+
+    // core.async
+    "go go-loop thread " +
 
     // contrib
-    "handler-case handle dotrace deftrace" +
+    "handler-case handle dotrace deftrace " +
 
     // HTML tags
     ("a abbr address area article aside audio b base bdi bdo big blockquote body " +
