@@ -39,6 +39,12 @@ CodeMirror.defineMode("clojure", function () {
     // core.async
     "go go-loop thread " +
 
+    // easy-app.core
+    "go* " +
+
+    // Http router
+    "Get Head Post Delete Put " +
+
     // contrib
     "handler-case handle dotrace deftrace " +
 

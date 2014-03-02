@@ -7,7 +7,8 @@
 
      :editor [:lt.objs.editor/no-wrap
               :lt.objs.editor/line-numbers
-              (:lt.objs.style/font-settings "Consolas" 11 1.4)]
+              (:lt.objs.style/font-settings "Consolas" 11 1.4)
+              (:lt.objs.editor/blink-rate 0)]
 
      :editor.clojure [(:lt.objs.langs.clj/print-length 1000)]}
 

@@ -1,0 +1,8 @@
+{"version":3,
+ "file":"compiled.map",
+ "sources":["src/my.cljs"],
+ "lineCount":9,
+ "mappings":
+ ";AAAA;;;;AAIA,AAAA,AAAAA,0BAAA,iCAAA,AAE4B,OAAQE;;AAFpC,AAAAD,mCAAA,0EAAA,6DAAAD,wBAAA,6DAAA,iFAAA",
+ "names":
+ ["my/__BEH__focus-on-init", "lt.object/behavior*", "lt.objs.app/win"]}
