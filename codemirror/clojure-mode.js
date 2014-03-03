@@ -19,7 +19,7 @@ CodeMirror.defineMode("clojure", function () {
 
   var indentKeys = makeKeywords(
     // Built-ins
-    "ns fn def defn defmethod bound-fn if if-not case condp when while when-not when-first do future comment doto locking proxy with-open with-precision reify deftype defrecord defprotocol extend extend-protocol extend-type try catch " +
+    "ns fn def defn defmethod bound-fn if if-not case condp when while when-not when-first do future comment doto locking proxy with-open with-precision reify deftype defrecord defprotocol extend extend-protocol extend-type try catch finally " +
 
     // ClojureScript
     "this-as " +
