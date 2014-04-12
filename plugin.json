@@ -5,6 +5,6 @@
   "desc": "My private settings",
   "behaviors": "my.behaviors",
   "dependencies": {
-    "Clojure": "*"
+    "HTML": "0.0.2"
   }
 }

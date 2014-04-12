@@ -37,10 +37,10 @@ CodeMirror.defineMode("clojure", function () {
     "run* conde fresh " +
 
     // core.async
-    "go go-loop thread " +
+    "go go-loop " +
 
-    // easy-app.core
-    "go* " +
+    // dar.ui.frp
+    "transform " +
 
     // Http router
     "Get Head Post Delete Put " +

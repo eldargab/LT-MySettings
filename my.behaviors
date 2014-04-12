@@ -5,12 +5,14 @@
            (:lt.objs.style/set-skin "dark")
            :my/focus-on-init]
 
-     :editor [:lt.objs.editor/no-wrap
+     :editor [(:lt.objs.style/set-theme "eldar")
+              :lt.objs.editor/no-wrap
               :lt.objs.editor/line-numbers
               (:lt.objs.style/font-settings "Consolas" 11 1.4)
               (:lt.objs.editor/blink-rate 0)]
 
-     :editor.clojure [(:lt.objs.langs.clj/print-length 1000)]}
+     :editor.clojure [(:lt.objs.langs.clj/print-length 1000)]
+     :editor.html [(:lt.objs.editor/tab-settings false 2 2)]}
 
  :- {:app [:lt.objs.intro/show-intro]
      :editor.transient [:lt.objs.editor.file/dirty-on-change]
