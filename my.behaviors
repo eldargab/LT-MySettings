@@ -3,7 +3,9 @@
            (:lt.objs.plugins/load-js "codemirror/clojure-mode.js" true)
            (:lt.objs.style/provide-theme "eldar" "themes/eldar.css")
            (:lt.objs.style/set-skin "dark")
-           :my/focus-on-init]
+           (:lt.objs.files/file.ignore-pattern "(^\\..*)|\\.class$|target/|svn|cvs|\\.git|\\.pyc|~|\\.swp|\\.jar|.DS_Store|\\.nrepl-port|checkouts")
+           :my/focus-on-init
+           :lt.objs.sidebar.workspace/workspace.open-on-start]
 
      :editor [(:lt.objs.style/set-theme "eldar")
               :lt.objs.editor/no-wrap
