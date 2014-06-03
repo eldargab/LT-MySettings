@@ -32,11 +32,11 @@
 
 /* .cm-s-eldar span.cm-bracket {color: #777;} */
 
-.cm-s-eldar span.CodeMirror-matchingbracket { background: #ccc; }
+.cm-s-eldar span.CodeMirror-matchingbracket { background: #ccc; color: #333!important;}
 
 .cm-s-eldar div.CodeMirror-cursor { border-left: 1px solid #333; }
 
-.cm-s-eldar.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor { width: auto; border: none !important; background: rgba(50, 50, 50, .4);}
+.cm-s-eldar.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor { width: auto; border: none !important; background: rgba(50, 50, 50, .4); color: #333!important;}
 
 .cm-s-eldar .CodeMirror-selected {background: rgba(77, 151, 255, 0.5)}
 

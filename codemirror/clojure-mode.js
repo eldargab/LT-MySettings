@@ -100,7 +100,7 @@ CodeMirror.defineMode("clojure", function () {
     if (keyWord.length > 0 && keyWord == "comment" && commentForms) {
       state.mode = "comment";
       pushStack(state, indentTemp + INDENT_WORD_SKIP, "comment");
-    } else if (keyWord.length > 0) { // indent-word
+    } else if (keyWord.length > 0 && keyWord[0] != ":") { // indent-word
       pushStack(state, indentTemp + INDENT_WORD_SKIP, ch);
     } else { // non-indent word
       // we continue eating the spaces

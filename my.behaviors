@@ -18,4 +18,9 @@
 
  :- {:app [:lt.objs.intro/show-intro]
      :editor.transient [:lt.objs.editor.file/dirty-on-change]
-     :editor [:lt.plugins.auto-complete/auto-show-on-input]}}
+     :editor [:lt.plugins.auto-complete/auto-show-on-input]
+     :editor.behaviors [:lt.plugins.rainbow/rainbow-parens]
+     :editor.keymap [:lt.plugins.rainbow/rainbow-parens]
+     :editor.clj [:lt.plugins.rainbow/rainbow-parens]
+     :editor.cljs [:lt.plugins.rainbow/rainbow-parens]
+     :editor.clj.instarepl [:lt.plugins.rainbow/rainbow-parens]}}
